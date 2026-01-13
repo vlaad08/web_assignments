@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "nodenext",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": false,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "moduleResolution": "NodeNext"
+  },
+  "include": ["src"],
+  "exclude": ["src/**/*.test.ts", "src/**/__test__/*"]
+}
