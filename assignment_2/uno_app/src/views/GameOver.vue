@@ -17,7 +17,6 @@ let ctx: CanvasRenderingContext2D | null = null
 let confetti: {x:number,y:number,r:number,c:string,s:number}[] = []
 let anim: number
 
-// PTT CONFETTI STUFF MAN IDK WHAT IM DOING
 function initConfetti() {
   if (!confettiCanvas) return
   confettiCanvas.width = window.innerWidth
