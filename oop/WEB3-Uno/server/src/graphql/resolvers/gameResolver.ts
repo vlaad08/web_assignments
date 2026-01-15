@@ -21,11 +21,6 @@ export const gameResolver = {
   UUID: UUIDResolver,
   DateTime: DateTimeResolver,
 
-  GameEvent: {
-    __resolveType(obj: { __typename: string }) {
-      return obj.__typename
-    },
-  },
 
   Query: {
     game: (_: any, { gameId }: { gameId: string }) => getGame(gameId),
